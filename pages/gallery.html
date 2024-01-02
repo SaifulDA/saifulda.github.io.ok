@@ -1,0 +1,128 @@
+<!DOCTYPE html>
+<html lang="en" data-bs-theme="light">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <title>Gracella Prisilya</title>
+    <link href="../style.css" rel="stylesheet" type="text/css" />
+    <link rel="shortcut icon" href="../assets/img/logo.jpg" type="image/x-icon" />
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.10.5/font/bootstrap-icons.css" />
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-9ndCyUaIbzAi2FUVXJi0CjmCapSmO7SnpJef0486qhLnuZ2cdeRhO02iuK6FUUVM" crossorigin="anonymous" />
+  </head>
+  <body>
+    <header id="profile">
+      <nav class="navbar navbar-expand-lg fixed-top shadow" style="background-color: #e26dc5">
+        <div class="container">
+          <a class="navbar-brand" href="#">
+            <img src="../assets/img/logo.jpg" alt="logo" width="30" height="30" class="d-inline-block align-text-top" />
+            Gracella Prisilya
+          </a>
+          <button class="navbar-toggler btn" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigationd">
+            <span class="navbar-toggler-icon"></span>
+          </button>
+          <div class="collapse navbar-collapse" id="navbarSupportedContent">
+            <ul class="navbar-nav align-items-center ms-auto">
+              <li class="nav-item">
+                <a class="nav-link active" aria-current="page" href="../index.html">Home</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link active" href="../pages/gallery.html">Gallery</a>
+              </li>
+              <li class="nav-item dropdown">
+                <button class="btn nav-link dropdown-toggle" type="button" data-bs-toggle="dropdown" aria-expanded="false">
+                  <i href="" class="bi bi-sun-fill theme-icon-active" data-theme-icon-active="bi-sun-fill"></i>
+                </button>
+                <ul class="dropdown-menu dropdown-menu-end">
+                  <li>
+                    <button class="dropdown-item d-flex align-items-center" type="button" data-bs-theme-value="light"><i href="" class="bi bi-sun-fill" data-theme-icon="bi-sun-fill"></i>Light</button>
+                  </li>
+                  <li>
+                    <button class="dropdown-item d-flex align-items-center" type="button" data-bs-theme-value="dark"><i href="" class="bi bi-moon-fill" data-theme-icon="bi-moon-fill"></i>Dark</button>
+                  </li>
+                  <li>
+                    <button class="dropdown-item d-flex align-items-center" type="button" data-bs-theme-value="auto"><i href="" class="bi bi-circle-half" data-theme-icon="bi-circle-half"></i>Auto</button>
+                  </li>
+                </ul>
+              </li>
+            </ul>
+          </div>
+        </div>
+      </nav>
+    </header>
+    <main>
+      <section id="message">
+        <div class="container pesan" style="margin-top: 10px">
+          <h2 style="text-align: center"> halaman Gallery ini masih dummy</h2>
+          <form name="submit-pesan">
+            <div class="alert alert-primary alert-dismissible fade show d-none my-alert" role="alert">
+              <strong>Thank You !</strong> we have received your message.
+              <button type="button" class="btn-close" data-bs-dismiss="alert" aria-label="Close"></button>
+            </div>
+            <div class="mb-3">
+              <label for="exampleInputEmail1" class="form-label">Email</label>
+              <input type="email" class="form-control" placeholder="Input Email" id="exampleInputEmail1" aria-describedby="emailHelp" name="email" style="background-color: rgba(255, 255, 255, 0.19)" />
+            </div>
+            <div class="mb-3">
+              <label for="exampleInputName" class="form-label">Full Name</label>
+              <input type="text" class="form-control" placeholder="Input Full Name" id="exampleInputNme" name="nama" style="background-color: rgba(255, 255, 255, 0.19)" />
+            </div>
+            <div class="mb-3">
+              <label for="exampleFormControlTextarea1" class="form-label">message</label>
+              <textarea class="form-control" placeholder="Input Message" id="exampleFormControlTextarea1" rows="3" name="pesan" style="background-color: rgba(255, 255, 255, 0.19)"></textarea>
+            </div>
+            <button type="submit" class="btn text-light btn-kirim" style="background-color: #e26dc5">Submit</button>
+            <button class="btn btn-loading d-none shadow text-light" style="background-color: #e26dc5" type="button">
+              <span class="spinner-border spinner-border-sm" role="status" aria-hidden="true"></span>
+              Loading...
+            </button>
+          </form>
+        </div>
+
+        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1440 190">
+          <path
+            fill="#e26dc5"
+            fill-opacity="10"
+            d="M0,96L48,122.7C96,149,192,203,288,192C384,181,480,107,576,80C672,53,768,75,864,101.3C960,128,1056,160,1152,165.3C1248,171,1344,149,1392,138.7L1440,128L1440,320L1392,320C1344,320,1248,320,1152,320C1056,320,960,320,864,320C768,320,672,320,576,320C480,320,384,320,288,320C192,320,96,320,48,320L0,320Z"
+          ></path>
+        </svg>
+      </section>
+    </main>
+    <footer style="background-color: #e26dc5">
+      <div class="sosmed">
+        <a href="#"><i class="bi bi-envelope text-light fs-4"></i></a>
+        <a href="#"><i class="bi bi-whatsapp text-light fs-4"></i></a>
+        <a href="#"><i class="bi bi-instagram text-light fs-4"></i></a>
+        <a href="#"><i class="bi bi-tiktok text-light fs-4"></i></a>
+        <a href="#"><i class="bi bi-linkedin text-light fs-4"></i></a>
+        <a href="#"><i class="bi bi-youtube text-light fs-4"></i></a>
+        <br />
+        <br />
+        <p>Gracella Prisilya &#169; 2023</p>
+      </div>
+    </footer>
+    <script src="../js/validasi_kontak.js"></script>
+    <script>
+      const scriptURL = "https://script.google.com/macros/s/AKfycbwU28-js1UoyC0gDV16bgVkZOyRG1L2JtDrIeS3O9U625OIdX35elMI4C5z3rBYeKjz/exec";
+      const form = document.forms["submit-pesan"];
+      const btnKirim = document.querySelector(".btn-kirim");
+      const btnLoading = document.querySelector(".btn-loading");
+      const myAlert = document.querySelector(".my-alert");
+      form.addEventListener("submit", (e) => {
+        e.preventDefault();
+        btnLoading.classList.toggle("d-none");
+        btnKirim.classList.toggle("d-none");
+        fetch(scriptURL, { method: "POST", body: new FormData(form) })
+          .then((response) => {
+            btnLoading.classList.toggle("d-none");
+            btnKirim.classList.toggle("d-none");
+            myAlert.classList.toggle("d-none");
+            form.reset();
+            console.log("Success!", response);
+          })
+          .catch((error) => console.error("Error!", error.message));
+      });
+    </script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js" integrity="sha384-geWF76RCwLtnZ8qwWowPQNguL3RmwHVBC9FhGdlKrxdiJJigb/j/68SIy3Te4Bkz" crossorigin="anonymous"></script>
+    <script src="../js/dark.js"></script>
+  </body>
+</html>
