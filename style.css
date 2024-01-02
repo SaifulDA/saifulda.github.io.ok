@@ -92,7 +92,7 @@ nav {
   color: var(--hovered-color);
 }
 .navbar-brand:hover {
-  background-color: #ffee00;
+  background-color: #b9b9b9;
   border-radius: 6px;
   display: flex;
   font-family: "Courier New", Courier, monospace;
@@ -116,12 +116,12 @@ nav {
 }
 
 .nav-item:hover {
-  background-color: #ffee00;
+  background-color: #b9b9b9;
   border-radius: 10px;
 }
 
 .bi-heroes:hover {
-  background-color: #ffee00;
+  background-color: #b9b9b9;
   border-radius: 10px;
 }
 
@@ -134,7 +134,7 @@ footer {
   text-align: center;
 }
 footer .bi:hover {
-  background-color: #ffee00;
+  background-color: #b9b9b9;
   border-radius: 10px;
 }
 
